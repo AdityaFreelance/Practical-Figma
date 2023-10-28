@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grover Landing Page</title>
+    <!-- Link Favicon Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Link Bootstrap 5 Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link Custom Css File-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Reponsive Css File -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--Link Font Awesome 5.14.4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!--Link Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Service
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Shop
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-cartBox">
+                    <div class="searchBox">
+                        <form action="">
+                            <div class="input-group">
+                                <span class="search-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <path
+                                            d="M15.2124 14.5735L11.4044 10.6129C12.3835 9.44901 12.92 7.98455 12.92 6.45999C12.92 2.89801 10.022 0 6.45999 0C2.89801 0 0 2.89801 0 6.45999C0 10.022 2.89801 12.92 6.45999 12.92C7.79721 12.92 9.07152 12.5167 10.161 11.751L13.998 15.7416C14.1583 15.9082 14.374 16 14.6052 16C14.824 16 15.0316 15.9166 15.1891 15.7649C15.5239 15.4428 15.5346 14.9085 15.2124 14.5735ZM6.45999 1.68522C9.09286 1.68522 11.2348 3.82713 11.2348 6.45999C11.2348 9.09286 9.09286 11.2348 6.45999 11.2348C3.82713 11.2348 1.68522 9.09286 1.68522 6.45999C1.68522 3.82713 3.82713 1.68522 6.45999 1.68522Z"
+                                            fill="#8B8B8B" />
+                                    </svg>
+                                </span>
+                                <input type="text" name="searchBox" class="form-control" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="cartBox">
+                        <button type="button" class="btn cartBtn">
+                            <span class="cartIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.01408 10.0838C0.9409 9.79112 1.16228 9.50757 1.46398 9.50757H22.536C22.8377 9.50757 23.0591 9.79112 22.986 10.0838L20.0593 21.79C19.9561 22.2029 19.5851 22.4926 19.1595 22.4926H4.84044C4.41484 22.4926 4.04385 22.2029 3.94063 21.79L1.01408 10.0838ZM12.75 13.6251C12.75 13.2109 12.4142 12.8751 12 12.8751C11.5858 12.8751 11.25 13.2109 11.25 13.6251V18.3751C11.25 18.7893 11.5858 19.1251 12 19.1251C12.4142 19.1251 12.75 18.7893 12.75 18.3751V13.6251ZM17.0688 13.0636C17.458 13.2052 17.6588 13.6356 17.517 14.0249L15.8925 18.4884C15.7508 18.8776 15.3204 19.0783 14.9312 18.9366C14.542 18.795 14.3413 18.3646 14.483 17.9754L16.1075 13.5118C16.2492 13.1226 16.6796 12.9219 17.0688 13.0636ZM7.89245 13.5118C7.7508 13.1226 7.3204 12.9219 6.9312 13.0636C6.54195 13.2052 6.34125 13.6356 6.48295 14.0249L8.1075 18.4884C8.2492 18.8776 8.6796 19.0783 9.0688 18.9366C9.45805 18.795 9.65875 18.3646 9.51705 17.9754L7.89245 13.5118Z"
+                                        fill="#3C3737" />
+                                    <path
+                                        d="M18.5 10.5L13.5887 4.07758C12.7882 3.03078 11.2118 3.03078 10.4113 4.07758L5.5 10.5"
+                                        stroke="#3C3737" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </button>
+                        <span class="cart-value">
+                            2
+                        </span>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Section banner Start -->
+    <section class="banner-wrapper">
+        <div class="container">
+            <div class="row custom-row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 ps-1 pe-1">
+                    <div class="bannerWrapper-text">
+                        <div class="bannerBtn-text">
+                            <p>
+                                More than Faster
+                                <span class="bannerBtn-text-icon">
+
+                                </span>
+                            </p>
+                        </div>
+                        <h1>
+                            Groceries delivered in as little as
+                            <span>
+                                2 hours
+                            </span>
+                        </h1>
+                        <p>
+                            Grocen atssures fresh grocery every morning to your family without getting out in this
+                            pandemic.
+                        </p>
+                        <div class="bannerBtn-group">
+                            <a href="#" class="custom-btn">
+                                order now
+                            </a>
+                            <button type="button" class="btn bannerPlay-btn">
+                                <span class="bannerPlay-btn-icon">
+                                    <img src="images/button-play.png" alt="icon" class="img-fluid">
+                                </span>
+                            </button>
+                            <span class="btnPlay-text">
+                                Order Process
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 ps-1 pe-1">
+                    <div class="bannerWrapper-box">
+                        <div class="banner-image">
+                            <img src="images/banner-images.png" alt="images" class="img-fluid">
+                        </div>
+                        <div class="deliveryTime-box">
+                            <div class="clockIcon-box">
+                                <img src="images/deliverClock.png" alt="icon" class="img-fluid">
+                            </div>
+                            <div class="deliveryIcon-text">
+                                <span class="delivery-heading">
+                                    Delivary
+                                </span>
+                                <span class="deliveryTime">
+                                    30 Min
+                                </span>
+                            </div>
+                        </div>
+                        <div class="bannerProduct-boxContainer">
+                            <div class="bannerProduct-box">
+                                <div class="bannerProduct-image">
+                                    <img src="images/bannerProduct.png" alt="images" class="img-fluid">
+                                </div>
+                                <div class="bannerProduct-detail text-center">
+                                    <span class="product-heading">
+                                        Fresh Orenge
+                                    </span>
+                                    <p>
+                                        <span class="product-price d-block">
+                                            $44.60
+                                        </span>
+                                        <span class="freeShip d-block">
+                                            Free Shipping
+                                        </span>
+                                    </p>
+                                    <button type="button" class="btn ProductCart-btn">
+                                        <img src="images/cart-product.png" alt="images" class="img-fluid">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section banner End -->
+    <!-- Section Delivery Wrapper Start -->
+    <div class="homeDelivery-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <span>
+                            What we Serve
+                        </span>
+                        <h2>
+                            fruit and vegetable delivered to your home
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-10 col-lg-9">
+                    <div class="row custom-row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 ps-1 pe-1">
+                            <div class="delivertPart-box">
+                                <div class="deliveryIcon">
+                                    <img src="images/FreeShiping.png" alt="icon" class="img-fluid">
+                                </div>
+                                <div class="deliveryPart-content">
+                                    <h3>
+                                        Free shipping
+                                    </h3>
+                                    <p>
+                                        Enjoy Order in a hand using the fresness of groceries
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 ps-1 pe-1">
+                            <div class="delivertPart-box">
+                                <div class="deliveryIcon">
+                                    <img src="images/return.png" alt="icon" class="img-fluid">
+                                </div>
+                                <div class="deliveryPart-content">
+                                    <h3>
+                                        15 days returns
+                                    </h3>
+                                    <p>
+                                        Order in a handy way using the freshness of the groceries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 ps-1 pe-1">
+                            <div class="delivertPart-box">
+                                <div class="deliveryIcon">
+                                    <img src="images/secure.png" alt="icon" class="img-fluid">
+                                </div>
+                                <div class="deliveryPart-content">
+                                    <h3>
+                                        Secure checkout
+                                    </h3>
+                                    <p>
+                                        If you get rotten items - return immediately to us.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section Delivery Wrapper End -->
+
+
+
+    <!-- Link Bootstrap 5 Script File -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link Custom Js File -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
